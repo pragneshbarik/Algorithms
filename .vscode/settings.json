@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "*.tcc": "cpp",
+        "map": "cpp",
+        "unordered_map": "cpp",
+        "functional": "cpp",
+        "vector": "cpp",
+        "optional": "cpp",
+        "array": "cpp",
+        "charconv": "cpp",
+        "random": "cpp",
+        "ratio": "cpp",
+        "utility": "cpp"
+    }
+}

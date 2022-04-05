@@ -1,0 +1,1 @@
+{"name":"Local: StrangeCricketScore","url":"d:\\Competition\\Contests\\StrangeCricketScore.cpp","tests":[{"id":1645344336460,"input":"4\n1 \n2 \n3 \n10","output":""},{"id":1645348247665,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Competition\\Contests\\StrangeCricketScore.cpp","group":"local","local":true}

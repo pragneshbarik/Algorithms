@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
         for(int j=0; j<dp[0].size(); j++){
             if(dp[i][j]==1) cout<<"T ";
             else if(dp[i][j]==0) cout<<"F ";
-            else if(dp[i][j]==-1) cout<<"U ";
+            else if(dp[i][j]==-1) cout<<"V ";
         }
         cout<<"\n";
     }

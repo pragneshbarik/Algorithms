@@ -1,4 +1,3 @@
-/* Problem statement : Find if there exist a subset in given array when summed is equal to target sum */
 #include<iostream>
 #include<vector>
 #define v vector

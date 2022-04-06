@@ -11,7 +11,7 @@ bool rec_subset_sum(int arr[], int sum, int n, v<v<int>> &dp){
 
     if(n==0 && sum==0) return dp[n][sum] = true;
     else if(sum==0) return dp[n][sum] = true;
-    else if(n==0) return false;
+    else if(n==0) return dp[n][sum] = false;
 
     if(arr[n-1]<=sum)
         return dp[n][sum] = (rec_subset_sum(arr, sum-arr[n-1], n-1, dp) || rec_subset_sum(arr, sum, n-1, dp));

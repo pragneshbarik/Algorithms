@@ -49,8 +49,7 @@ void print_lcs(string x, string y, vector<vector<int>> dp){
 }
 
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]){
     string x = "abcdgh";
     string y = "abedfhr";
     print_lcs(x, y, iter_lcs(x,y));
